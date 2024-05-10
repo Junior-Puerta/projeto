@@ -38,7 +38,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;/*primeiro esse foi alterado para auto em função das larguras distintas entre dispositivos width: 360px; */
+  max-width: 588px;
   margin: 56px auto 0px; /* margin-right: auto;  margin-left: auto;*/
   padding: 0 24px;
 }
